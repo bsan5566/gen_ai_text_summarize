@@ -6,12 +6,12 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.chains.summarize import load_summarize_chain
 
 # Page title
-st.set_page_config(page_title='Text Summarization App')
+st.set_page_config(page_title='santu Summarization App')
 
 # Display the logo at the top of the page
 st.image("images.jpg")  # Adjust width as needed
 st.divider()  # Horizontal rule
-st.title('🦜🔗 Text Summarization App')
+st.title('🦜🔗 santu Summarization App')
 st.divider()  # Horizontal rule
 
 # Get API Key from Streamlit secrets
