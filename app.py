@@ -16,7 +16,7 @@ st.title('🦜🔗 Text Summarization App')
 st.divider()  # 👈 Draws a horizontal rule
 # get API Key
 client = Groq(
-    api_key=st.secrets["GROQ_API_KEY"],
+    api_key=st.secrets["GROQ_API_KEY = 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"],
 )
 def generate_response(txt):
     # Instantiate the LLM model
